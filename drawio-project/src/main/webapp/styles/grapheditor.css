@@ -1840,3 +1840,16 @@ table.geProperties tr td {
   user-select: none;
   transition: all 0.5s;
 }
+
+
+a[title="Google Drive"] {
+	display: none !important;
+}
+
+a[title="OneDrive"] {
+	display: none !important;
+}
+
+a[title="Device"] {
+	min-width: 278px;
+}
